@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="styles.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <h1>Imaginese que esto es un header en condiciones</h1>
+            <div>
+                <a href="#">Link1</a>
+                <a href="#">Link2</a>
+                <a href="#">Link3</a>
+            </div>
+        </header>
+        <section>
+            <article>
+                <strong>IMPORTANTE:</strong> Si van a hacer cambios, cambien las variables del :root del archivo CSS
+            </article>
+            <article>
+                <p>Estos son los estilos que me ha recomendado ChatGPT para una aplicación web de votación, la idea es que estos estilos los vayamaos modificando a nuestro gusto, esto solo lo estoy usando como plantilla base. Voy a usar Roboto.</p>
+            </article>
+        </section>
+        <h1>TIPOGRAFIA</h1>
+        <section id="tipografia">
+            <article>
+                <p class="fuente1">Roboto: Esto es un texto muy bonito y espero que se lea bien</p>
+                <p class="fuente2">Arial: Esto es un texto muy bonito y espero que se lea bien</p>
+                <p class="fuente3">Helvetica: Esto es un texto muy bonito y espero que se lea bien</p>
+                <p class="fuente4">Sans-Serif: Esto es un texto muy bonito y espero que se lea bien</p>
+            </article>
+            <article>
+                <h1>Esto es un h1</h1>
+                <h2>Esto es un h2</h2>
+                <h3>Esto es un h3</h3>
+                <p>Cabe destacar que los botones tienen que tener el texto en <strong>bold</strong></p>
+            </article>
+        </section>
+        <h1>COLORES</h1>
+        <section id="colors">
+            <article>
+                <div class="square pc"></div>
+                <p>Primary Color</p>
+            </article>
+            <article>
+                <div class="square sv"></div>
+                <p>Secondary Color</p>
+            </article>
+            <article>
+                <div class="square ac"></div>
+                <p>Accent Color</p>
+            </article>
+            <article>
+                <div class="square nb"></div>
+                <p>Neutral Background</p>
+            </article>
+            <article>
+                <div class="square tc"></div>
+                <p>Text Color</p>
+            </article>
+            <article>
+                <div class="square bc"></div>
+                <p>Border Color</p>
+            </article>
+        </section>
+        <h1>LAYOUT</h1>
+        <section id="layout">
+            <article>
+                <p>Tamaño máximo de contendor: 1200px</p>
+            </article>
+            <article>
+                <p>Padding: Por determinar, ahora mismo para el padding de los section estoy usando 20px</p>
+                <p>Margin: Por determinar, ahora mismo para el margin de varios elementos estoy usando 10px</p>
+            </article>
+        </section>
+        <h1>COMPONENTES</h1>
+        <section id="components">
+            <p>Buttons: Rounded corners, primary color for primary actions.</p>
+            <div class="button fill">
+                <p>Votar</p>
+            </div>
+            <div class="button">
+                <p>Votar</p>
+            </div>
+            <p class="info">Más información</p>
+            <p>Cards: Use for displaying candidates, issues, or information.</p>
+            <div class="card">
+                <p>Personalmente creo que no hacen falta cards</p>
+            </div>
+            <p>Forms: Clean and simple design for user input.</p>
+            <p>El tema de forms lo miraré en el futuro</p>
+            <p>Alerts: Highlighting important messages or errors.</p>
+            <p>Las alertas las dejaría sin radio de bordes y los botones con, para distingir uno de otro</p>
+            <div class="alert positive">
+                <p>Bien hecho</p>
+            </div>
+            <div class="alert negative">
+                <p>La has liado</p>
+            </div>
+        </section>
+        <h1>Styling Guide</h1>
+        <p><br><br>1. Logo:<br><br>&nbsp; &nbsp; Logo features a ballot box or voting-related symbol.<br>&nbsp; &nbsp; Primary Logo: In full color.<br>&nbsp; &nbsp; Alternate Logo: In monochrome for use on light/dark backgrounds.<br><br>2. Header:<br><br>&nbsp; &nbsp; Background: Primary Color<br>&nbsp; &nbsp; Logo on the top left, navigation menu on the top right.<br>&nbsp; &nbsp; Navigation links: Home, Candidates, Issues, My Vote, About, Contact.<br><br>3. Home Page:<br><br>&nbsp; &nbsp; Hero Section: Encouraging users to vote with a call to action.<br>&nbsp; &nbsp; Sections for Recent Updates, Upcoming Elections, and Voting Resources.<br>&nbsp; &nbsp; Use high-quality images related to voting and democracy.<br><br>4. Candidates Page:<br><br>&nbsp; &nbsp; Use cards to display candidate information.<br>&nbsp; &nbsp; Include candidate name, party, photo, and brief description.<br>&nbsp; &nbsp; A button for voting or viewing more details.<br><br>5. Issues Page:<br><br>&nbsp; &nbsp; Display important issues with descriptions.<br>&nbsp; &nbsp; Allow users to explore each issue and its details.<br><br>6. My Vote Page:<br><br>&nbsp; &nbsp; Personalized user dashboard displaying their voting status, history, and polling place information.<br>&nbsp; &nbsp; Encourage users to register, vote, and engage with the voting process.<br><br>7. Forms:<br><br>&nbsp; &nbsp; Clean and simple forms for user registration and voting.<br>&nbsp; &nbsp; Clearly label form fields and provide validation feedback.<br><br>8. Buttons:<br><br>&nbsp; &nbsp; Use the primary color for important actions (e.g., &quot;Vote Now,&quot; &quot;Register&quot;).<br>&nbsp; &nbsp; Secondary color for secondary actions (e.g., &quot;Learn More,&quot; &quot;View Details&quot;).<br>&nbsp; &nbsp; Use hover and active states to provide feedback.<br><br>9. Alerts:<br><br>&nbsp; &nbsp; Use the accent color for error or success messages.<br>&nbsp; &nbsp; Ensure clear, concise, and actionable information.<br><br>10. Footer:<br><br>&nbsp; &nbsp; Copyright information, contact details, and links to social media.<br>&nbsp; &nbsp; Privacy policy and terms of use links.</p>
+        <footer>
+            <p>Esto es un footer</p>
+        </footer>
+    </body>
+</html>
